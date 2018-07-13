@@ -1,0 +1,3 @@
+[submodule "berkeleydb_prebuilt"]
+	path = berkeleydb_prebuilt
+	url = ../berkeleydb_prebuilt
