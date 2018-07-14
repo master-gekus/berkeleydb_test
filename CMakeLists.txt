@@ -8,8 +8,8 @@ if (MSVC)
     add_definitions(-DNOMINMAX)
 endif()
 
-# add_subdirectory(berkeleydb_prebuilt)
+add_subdirectory(berkeleydb_prebuilt)
 
 add_executable(${PROJECT_NAME} main.cpp)
 
-# target_link_libraries(${PROJECT_NAME} leveldb)
+target_link_libraries(${PROJECT_NAME} BerkeleyDB)
